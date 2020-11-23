@@ -7,7 +7,7 @@ on:
     #     required: true
     #     default: 'latest'
   schedule:
-    - cron: "0 12 * * 0"  # Monday at 4AM
+    - cron: "* * * * *"  # Monday at 4AM
 defaults:
   run:
     working-directory: ./
